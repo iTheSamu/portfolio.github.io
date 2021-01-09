@@ -1,0 +1,230 @@
+
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	
+
+}
+
+
+
+
+
+
+body{
+	background-color: #d31e00;
+	font-family: 'Xanh Mono', monospace;
+
+}
+
+
+
+
+
+.navigation{
+	background-color: #D73419;
+	color: white;
+	height: 65px;
+	animation-name: navegacao;
+	animation-duration: 4s;
+}
+.navigation ul {
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+	height: 65px;
+
+}
+.navigation li{
+	display: inline-block;
+	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 65px;
+	font-size: 22px;
+
+}
+
+.navigation a{
+	color: white;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	color:#EDA599;
+}
+.navigation li.threeline-icon{
+	display:none;
+}
+
+.capa{
+	color: white;
+}
+
+.capa div{
+	display: inline-block;
+	height: 650px;
+}
+
+.profile-pic {
+	
+	margin-top: 0px;
+	width: 40%;
+	text-align: center;
+
+	animation-name: profile-capa;
+	animation-duration: 2.5s;
+
+}
+.profile-pic img{
+	width: 520px;
+	border-radius: 100px;
+	margin-top: 100px;
+
+}
+.profile-title{
+	
+	vertical-align: top;
+	width: 59%;
+	animation-name: titulo-capa;
+	animation-duration: 2.5s;
+}
+.profile-title h1{
+	font-size: 70px;
+	margin-top: 200px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.profile-title h2{
+	font-size: 25px;
+	margin-left: 40px;
+	color:#EDA599;
+	margin-top: -50px;
+}
+.main {
+	padding: 50px 200px 100px 120px;
+	animation-name: conteudo;
+	animation-duration: 2.5s;
+}
+.main h1 {
+	color: white;
+	font-weight: normal;
+}
+
+.main h2 {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 40px;
+}
+
+.main h3 {
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+
+}
+
+.main p {
+	color: white;
+	font-size: 22px;
+	font-weight: 100;
+	line-height: 24px;
+	text-align: justify;
+}
+
+
+.caminho {
+	list-style: none;
+	padding-left: 0;
+	color: #1c0000;
+}
+
+.caminho li {
+	display: inline-block;
+
+}
+
+.caminho a{
+	color:white;
+}
+.caminho a:hover{
+	color:#EDA599;
+}
+.miniatura{
+	width: 320px;
+	height: 320px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 320px;
+	overflow: hidden;
+
+}
+.miniatura a{
+	text-decoration: none;
+}
+.foto-nos{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.mapa{
+	width: 100%;
+}
+
+.back-link {
+	color: white;
+}
+.back-link:hover{
+	color:#EDA599;}
+
+@keyframes profile-capa {
+	0% {opacity: 0; transform: translate(0px,20px)}
+	100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+@keyframes titulo-capa {
+	0% {opacity: 0; transform: translate(0px,-20px)}
+	100% {opacity: 1; transform: translate(0px,0px)}
+} 
+
+@keyframes conteudo {
+	0% {opacity: 0; transform: translate(-20px,0px)}
+	100% {opacity: 1; transform: translate(0px,0px)}
+} 
+
+@keyframes navegacao {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1}
+} 
+
+
+.blackbox{
+	width: 100%;
+	height: 100%;
+	background-color: #d31e00;
+	opacity: 0;
+	
+	padding-top: 70px;
+
+	
+}
+.blackbox:hover{
+
+opacity: 0.4;	}
+
+.blackboxtext{
+	text-align: center;
+
+}
+
+.blackboxtext h1{
+	font-size: 28px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 70px;
+}
+
